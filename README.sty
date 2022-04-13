@@ -1,0 +1,54 @@
+Read me file for ShootingPose_classification
+Code can be found in 
+    mediapipe website:   https://google.github.io/mediapipe/solutions/holistic
+                         https://google.github.io/mediapipe/solutions/pose
+
+    and also in github which we used and made changes to this code to work for what we wanted
+                         https://github.com/nicknochnack/Body-Language-Decoder  
+
+
+
+
+Download dependicies (We used conda install)
+1. python(latest versions)
+2. mediapipe 
+3. opencv
+4. pandas
+5. scikit-learn
+6. if you get numpy errors then updgrade it
+
+
+Run Detection model from mediapipe to start detection
+    
+    run and then exit out of cell this is just to start variables 
+    continue to next cells
+
+Capture landmarks and output into a csv
+    
+    First create a class name you want the pose to have
+    with live video feed record your pose or action you want to get coordiantes for
+    append to csv
+    Do this for every class name(new pose or ation)
+
+
+Classification model trained using Scikit Learn library
+    
+    Random forest works best
+
+Train Classification model with machine learning
+
+
+Evaluate model
+
+
+Apply it to the pose detection model 
+    
+    will run your trained classification model on the detection model
+
+
+To read in a csv file thats already trained just run all the code without running folliwing sections
+
+    2.1
+    2.2
+    2.3 
+    In section 3.1 change the file mane you want to reading
